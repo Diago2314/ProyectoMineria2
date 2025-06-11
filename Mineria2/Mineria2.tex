@@ -150,27 +150,6 @@ la cartera de microcréditos
   económico boliviano
 \end{itemize}
 
-Motivación Para una Institución Financiera de Desarrollo como CIDRE IFD,
-la cartera de préstamos constituye no solo el mayor activo, sino también
-la principal fuente de ingresos. La estabilidad y buen desempeño de esta
-cartera son esenciales para asegurar la sostenibilidad financiera de la
-institución y, por ende, su capacidad para promover la inclusión
-financiera. Sin embargo, los cambios en el entorno económico y social,
-como los experimentados en Bolivia entre 2022 y 2024, pueden afectar
-significativamente el comportamiento regular de esta cartera,
-especialmente en la economía de la población activa, poniendo en riesgo
-tanto la recuperación de los préstamos como la operación general de la
-institución.
-
-Analizar la data relacionada con el negocio principal de CIDRE IFD
-permite identificar cómo los factores económicos de estos años
-impactaron en las microempresas de La Paz y Oruro, regiones clave para
-el desarrollo económico local. Este análisis no solo busca entender
-estas dinámicas, sino también generar conocimientos que contribuyan al
-diseño de estrategias más resilientes, asegurando la sostenibilidad de
-la institución y maximizando su impacto en el fortalecimiento del sector
-microempresarial boliviano.
-
 \subsection{\texorpdfstring{6. \textbf{Revision de la
 literatura:}}{6. Revision de la literatura:}}\label{revision-de-la-literatura}
 
@@ -402,9 +381,18 @@ Días en mora, medida como una variable continua.
 Se busca evaluar cómo las variables demográficas y crediticias influyen
 en esta.
 
-Paso 3: Modelo de regresión Se define el siguiente modelo general: \[
-\text{DiasMora}_i = \beta_0 + \beta_1 \cdot \text{Edad}_i + \beta_2 \cdot \text{Sexo}_i + \beta_3 \cdot \text{Sector}_i + \beta_4 \cdot \text{Monto}_i + \beta_5 \cdot \text{TasaInteres}_i + \beta_6 \cdot \text{Calificación}_i + \epsilon_i
-\]
+Paso 3: Modelo de regresión Se define el siguiente modelo general: \$\$
+
+\begin{align*}
+\text{DiasMora}_i = \beta_0 
+&+ \beta_1 \text{Edad}_i \\
+&+ \beta_2 \text{Sexo}_i \\
+&+ \beta_3 \text{Sector}_i \\
+&+ \beta_4 \text{Monto}_i \\
+&+ \beta_5 \text{TasaInteres}_i \\
+&+ \beta_6 \text{Calificación}_i \\
+&+ \epsilon_i
+\end{align*} \$\$
 
 En una segunda etapa, se evalúa también una versión log-transformada de
 los días en mora si la distribución resulta altamente sesgada.
