@@ -38,11 +38,17 @@ El microcrédito ha emergido como una herramienta fundamental para la inclusión
 
 Las instituciones financieras de desarrollo (IFD) en Bolivia han jugado un papel esencial en la inclusión financiera, acercando servicios y productos financieros a los sectores más vulnerables de la sociedad. Estas instituciones no solo contribuyen al empoderamiento económico de individuos y comunidades, sino que también se convierten en motores para el desarrollo local y la reducción de desigualdades. En este contexto, CIDRE IFD se destaca como una entidad comprometida con el fomento del acceso al microcrédito, permitiendo a pequeños productores, emprendedores y familias contar con el financiamiento necesario para llevar a cabo sus proyectos y mejorar sus condiciones de vida. Sin embargo, la gestión de la cartera de microcrédito no está exenta de desafíos. CIDRE IFD ha enfrentado fluctuaciones económicas y contextos complejos en las ciudades de La Paz y Oruro, regiones donde opera con gran intensidad. Este estudio busca analizar los factores económicos que han influido en el comportamiento de esta cartera entre 2022 y 2024. Al comprender estas dinámicas, se espera aportar recomendaciones prácticas para mejorar la resiliencia de CIDRE IFD y potenciar su impacto en la promoción de la inclusión financiera en Bolivia.
 
-## 3. **Pregunta de investigación:**
+## 3. **Motivacion:**
+
+Para una Institución Financiera de Desarrollo como CIDRE (estudio de caso) la cartera de préstamos se constituye en la proporción más importante del activo y, por tanto, la principal fuente de sus ingresos. Pero cuando el entorno económico y social de un pais en este caso en Bolivia presenta cambios que inciden en la economía de la población económicamente activa, sin duda, puede incidir negativamente en el comportamiento regular de la cartera
+
+El analizar la data del negocio principal de una Institución Financiera de Desarrollo como es el estudio de caso CIDRE IFD me permite determinar la incidencia de la economía en Bolivia en un negocio que aporta al desarrollo de las unidades económicas microempresariales de las ciudades de La Paz y Oruro.
+
+## 4. **Pregunta de investigación:**
 
 ¿Cuál es la incidencia de los factores económicos de los periodos 2022 al 2024 en Bolivia, en el comportamiento de la cartera de microcrédito en una Institución Financiera de Desarrollo de las ciudades de La Paz y Oruro? (caso CIDRE IFD)
 
-## 4. **Objetivos:**
+## 5. **Objetivos:**
 
 **4.1. Objetivo General:**
 
@@ -60,9 +66,9 @@ Motivación Para una Institución Financiera de Desarrollo como CIDRE IFD, la ca
 
 Analizar la data relacionada con el negocio principal de CIDRE IFD permite identificar cómo los factores económicos de estos años impactaron en las microempresas de La Paz y Oruro, regiones clave para el desarrollo económico local. Este análisis no solo busca entender estas dinámicas, sino también generar conocimientos que contribuyan al diseño de estrategias más resilientes, asegurando la sostenibilidad de la institución y maximizando su impacto en el fortalecimiento del sector microempresarial boliviano.
 
-## 5. **Revision de la literatura:**
+## 6. **Revision de la literatura:**
 
-**5.1 La economía en Bolivia: Un análisis crítico post-pandemia 2022-2024**
+**6.1 La economía en Bolivia: Un análisis crítico post-pandemia 2022-2024**
 
 De acuerdo con el "Informe del Milenio sobre la economía en Bolivia" (2023-2024), tras la pandemia del COVID-19, la economía boliviana mostró una tendencia positiva con un crecimiento del 6.11% en 2022. Sin embargo, este crecimiento se desaceleró a 3.6% en 2023, y para 2024 el INE publicó un crecimiento de solo 2.14%. Esta tendencia decreciente refleja una crisis inminente manifestada por la escasez de divisas y combustibles, agudizando "...los desequilibrios fiscales, monetarios, cambiarios y financieros, que conllevan riesgos para la estabilidad macroeconómica" (Informe Nuevo Milenio, 2024, pág. 7).
 
@@ -87,7 +93,7 @@ Según la Fundación ARU y el Ministerio de Desarrollo Productivo y Economía Pl
 
 Las microempresas requieren financiamiento para su crecimiento, pero enfrentan barreras de acceso al crédito debido a factores externos (como condiciones de mercado) e internos (como la falta de información financiera adecuada). Esto genera **exclusión financiera**, dificultando su desarrollo y sostenibilidad económica.
 
-**5.2 LAS MICROFINANZAS: ENFOQUE HACIA SECTORES INFORMALES (MICRO Y PEQUEÑAS EMPRESA.**
+**6.2 LAS MICROFINANZAS: ENFOQUE HACIA SECTORES INFORMALES (MICRO Y PEQUEÑAS EMPRESA.**
 
 Un artículo publicado en ABC Economía (2024) exploró el comportamiento de la cartera de créditos en Bolivia y su relación con el microcrédito. El estudio señala que, a lo largo de las últimas décadas, la expansión del microcrédito ha desempeñado un papel crucial en la inclusión financiera de sectores tradicionalmente marginados. Sin embargo, también destaca los desafíos asociados, como el riesgo de morosidad y la necesidad de diseñar políticas adecuadas para garantizar la sostenibilidad del sector financiero. Utilizando datos recientes, el artículo analiza la evolución del microcrédito en relación con la estabilidad macroeconómica del país.
 
@@ -95,13 +101,13 @@ Un estudio de la Fundación ARU (2024) evaluó el impacto del microcrédito en B
 
 El estudio del microcrédito en Bolivia permite comprender su papel como una herramienta de inclusión financiera y su influencia en la estabilidad económica de los prestatarios. Identificar los factores que afectan el comportamiento de la cartera de microcréditos es crucial para diseñar estrategias que fortalezcan su impacto y mitiguen riesgos asociados, promoviendo así un desarrollo financiero más equitativo y sostenible.
 
-## 6 **Descripcion de los datos:**
+## 7 **Descripcion de los datos:**
 
 El presente estudio utiliza un subconjunto de datos extraído de la base de cartera de créditos de una entidad financiera. Este subconjunto se compone de variables que permiten describir las características básicas del cliente y las condiciones del crédito otorgado. En cuanto al perfil del cliente, se consideran las variables edad, sexo y sector geográfico (rural o urbano). Estas permiten analizar diferencias de comportamiento crediticio según género, grupo etario y ubicación. Por otro lado, en el ámbito crediticio, se seleccionan variables clave como el monto del crédito, la tasa de interés aplicada, los días en mora (como indicador de incumplimiento) y la calificación crediticia. Estas variables permitirán explorar patrones asociados al riesgo de incumplimiento y construir modelos predictivos en el marco de la minería de datos.
 
 Variables de caracterización del cliente: - Edad - Sexo - Sector geográfico: urbano o rural Variables crediticias: - Monto aprobado del crédito - Tasa de interés - Días en mora - Calificación crediticia (A, B, C, D, E)
 
-## **7. Justificación del Dataset Nacional**
+## **8. Justificación del Dataset Nacional**
 
 El dataset sobre la cartera de microcréditos de CIDRE IFD en La Paz y Oruro se justifica dentro del contexto de una problemática clave en Bolivia: la **inclusión financiera** y la **sostenibilidad de las microempresas** frente a la desaceleración económica.
 
@@ -119,7 +125,7 @@ El dataset proporciona datos sobre clientes y su comportamiento crediticio, lo q
 
 4.  **Optimizar la asignación de recursos** dentro de CIDRE IFD, ajustando políticas de financiamiento a las necesidades reales de los prestatarios.
 
-## 8. **Metodologia aplicada:**
+## 9. **Metodologia aplicada:**
 
 Metodología Esta investigación adopta un enfoque cuantitativo y predictivo, apoyado en técnicas de minería de datos, particularmente modelos de regresión, con el fin de analizar el comportamiento de la cartera de microcréditos de una Institución Financiera de Desarrollo (CIDRE IFD) en las ciudades de La Paz y Oruro durante los años 2022 al 2024.
 
@@ -287,8 +293,7 @@ print(p_crecimiento)
 
 ```
 
-**Interpretacion (Figura 3)**
-El gráfico muestra la distribución de clientes según su calificación crediticia dentro de CIDRE IFD. Se observan las siguientes tendencias clave:
+**Interpretacion (Figura 3)** El gráfico muestra la distribución de clientes según su calificación crediticia dentro de CIDRE IFD. Se observan las siguientes tendencias clave:
 
 Predominio de clientes con calificación A
 
@@ -310,8 +315,7 @@ La baja representación en las calificaciones inferiores podría reflejar una po
 
 Evaluar estrategias de seguimiento y reestructuración de cartera para clientes con calificaciones intermedias (B y C) podría mejorar su permanencia en el sistema financiero.
 
-**Interpretacion (Figura 4)**
-El gráfico presenta la evolución del Monto Total Desembolsado (Bs) en la cartera de CIDRE IFD desde 2012 hasta 2024. Se observan varias tendencias clave:
+**Interpretacion (Figura 4)** El gráfico presenta la evolución del Monto Total Desembolsado (Bs) en la cartera de CIDRE IFD desde 2012 hasta 2024. Se observan varias tendencias clave:
 
 Crecimiento sostenido entre 2012 y 2019: Durante este período, el monto desembolsado muestra un incremento significativo, lo que sugiere una expansión en la colocación de créditos y una mayor confianza en el sistema financiero.
 
@@ -321,7 +325,7 @@ Recuperación parcial en 2021 y 2022: La cartera muestra una recuperación, aunq
 
 Nueva contracción en 2023 y 2024: La tendencia descendente en estos años indica posibles dificultades económicas, menor demanda de financiamiento, o una política de crédito más cautelosa por parte de CIDRE IFD.
 
-## 9. **Conclusiones:**
+## 10. **Conclusiones:**
 
 El análisis del comportamiento de la cartera de microcréditos de CIDRE IFD entre 2022 y 2024 evidencia una tendencia de desaceleración financiera impulsada por factores macroeconómicos y estructurales dentro del país. La caída del PIB, el incremento de la informalidad laboral y la escasez de divisas han generado condiciones de incertidumbre que afectan la colocación y recuperación de créditos, particularmente en sectores de microempresas y pequeños emprendedores.
 
@@ -329,7 +333,7 @@ El modelo de regresión confirma que la calificación crediticia es el factor de
 
 Los gráficos de evolución del monto desembolsado reflejan un crecimiento sostenido hasta 2019, seguido de una contracción en 2020 debido a la pandemia de COVID-19. Si bien CIDRE IFD mostró una recuperación parcial en 2021 y 2022, la cartera volvió a disminuir en 2023 y 2024, reflejando una crisis estructural que afecta la demanda de crédito y la estabilidad financiera de los prestatarios.
 
-## 10. Bibliografía
+## 11. Bibliografía
 
 Fundación ABC Economía. (s.f.). La cartera de créditos y el microcrédito en Bolivia (1era parte). Recuperado de: <https://web.abceconomia.com/revista-n-95/la-cartera-de-creditos-y-el-microcredito-en-bolivia-1era-parte/>
 
